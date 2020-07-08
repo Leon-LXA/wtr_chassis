@@ -47,12 +47,22 @@ rosrun wtr_usb2can main
 
 
 
-## PR/TR launch文件
+## launch文件
+
+### PR/TR
 
 launch文件写在twist2multiarray内
 
 ```cpp
 roslaunch twist2multiarray PR.launch
 roslaunch twist2multiarray TR.launch
+```
+
+### launch发射机构
+
+launch文件写在launching内
+
+```cpp
+roslaunch launching launching.launch
 ```
 

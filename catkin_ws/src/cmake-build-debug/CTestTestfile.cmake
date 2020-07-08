@@ -5,6 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
+subdirs(launching)
 subdirs(joy)
 subdirs(twist2multiarray)
 subdirs(wtr_canbus/wtr_usb2ros)

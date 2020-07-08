@@ -126,6 +126,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/gtest/cmake_install.cmake")
+  include("/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/launching/cmake_install.cmake")
   include("/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/joy/cmake_install.cmake")
   include("/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/twist2multiarray/cmake_install.cmake")
   include("/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/wtr_canbus/wtr_usb2ros/cmake_install.cmake")

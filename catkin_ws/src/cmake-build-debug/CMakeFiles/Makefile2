@@ -387,58 +387,792 @@ clean: gtest/gtest/CMakeFiles/gtest.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory launching
+
+# Convenience name for "all" pass in the directory.
+launching/all: launching/CMakeFiles/launch_node.dir/all
+launching/all: launching/CMakeFiles/launching.dir/all
+
+.PHONY : launching/all
+
+# Convenience name for "clean" pass in the directory.
+launching/clean: launching/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+launching/clean: launching/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+launching/clean: launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+launching/clean: launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+launching/clean: launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+launching/clean: launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+launching/clean: launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+launching/clean: launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+launching/clean: launching/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+launching/clean: launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+launching/clean: launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+launching/clean: launching/CMakeFiles/launch_node.dir/clean
+launching/clean: launching/CMakeFiles/roscpp_generate_messages_py.dir/clean
+launching/clean: launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+launching/clean: launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+launching/clean: launching/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+launching/clean: launching/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+launching/clean: launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+launching/clean: launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+launching/clean: launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+launching/clean: launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+launching/clean: launching/CMakeFiles/launching.dir/clean
+
+.PHONY : launching/clean
+
+# Convenience name for "preinstall" pass in the directory.
+launching/preinstall:
+
+.PHONY : launching/preinstall
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/std_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+launching/CMakeFiles/std_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f launching/CMakeFiles/std_msgs_generate_messages_py.dir/build.make launching/CMakeFiles/std_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f launching/CMakeFiles/std_msgs_generate_messages_py.dir/build.make launching/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
+.PHONY : launching/CMakeFiles/std_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_py: launching/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+.PHONY : std_msgs_generate_messages_py
+
+# clean rule for target.
+launching/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/std_msgs_generate_messages_py.dir/build.make launching/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : launching/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/roscpp_generate_messages_eus.dir
+
+# All Build rule for target.
+launching/CMakeFiles/roscpp_generate_messages_eus.dir/all:
+	$(MAKE) -f launching/CMakeFiles/roscpp_generate_messages_eus.dir/build.make launching/CMakeFiles/roscpp_generate_messages_eus.dir/depend
+	$(MAKE) -f launching/CMakeFiles/roscpp_generate_messages_eus.dir/build.make launching/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
+.PHONY : launching/CMakeFiles/roscpp_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/roscpp_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_eus: launching/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+
+.PHONY : roscpp_generate_messages_eus
+
+# clean rule for target.
+launching/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/roscpp_generate_messages_eus.dir/build.make launching/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+.PHONY : launching/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
+.PHONY : launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_py: launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# clean rule for target.
+launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+.PHONY : launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
+.PHONY : launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_lisp: launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# clean rule for target.
+launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/roscpp_generate_messages_nodejs.dir
+
+# All Build rule for target.
+launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
+	$(MAKE) -f launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
+	$(MAKE) -f launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
+.PHONY : launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_nodejs: launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+
+.PHONY : roscpp_generate_messages_nodejs
+
+# clean rule for target.
+launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+.PHONY : launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
+.PHONY : launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# clean rule for target.
+launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/std_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
+.PHONY : launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_cpp: launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : std_msgs_generate_messages_cpp
+
+# clean rule for target.
+launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+.PHONY : launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
+.PHONY : launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_eus: launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_eus
+
+# clean rule for target.
+launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+.PHONY : launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/roscpp_generate_messages_cpp.dir
+
+# All Build rule for target.
+launching/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
+	$(MAKE) -f launching/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make launching/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+	$(MAKE) -f launching/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make launching/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
+.PHONY : launching/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_cpp: launching/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+.PHONY : roscpp_generate_messages_cpp
+
+# clean rule for target.
+launching/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make launching/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+.PHONY : launching/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
+.PHONY : launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# clean rule for target.
+launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
+.PHONY : launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_nodejs: launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : std_msgs_generate_messages_nodejs
+
+# clean rule for target.
+launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+.PHONY : launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/launch_node.dir
+
+# All Build rule for target.
+launching/CMakeFiles/launch_node.dir/all:
+	$(MAKE) -f launching/CMakeFiles/launch_node.dir/build.make launching/CMakeFiles/launch_node.dir/depend
+	$(MAKE) -f launching/CMakeFiles/launch_node.dir/build.make launching/CMakeFiles/launch_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target launch_node"
+.PHONY : launching/CMakeFiles/launch_node.dir/all
+
+# Include target in all.
+all: launching/CMakeFiles/launch_node.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/launch_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/launch_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/launch_node.dir/rule
+
+# Convenience name for target.
+launch_node: launching/CMakeFiles/launch_node.dir/rule
+
+.PHONY : launch_node
+
+# clean rule for target.
+launching/CMakeFiles/launch_node.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/launch_node.dir/build.make launching/CMakeFiles/launch_node.dir/clean
+.PHONY : launching/CMakeFiles/launch_node.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/launch_node.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/roscpp_generate_messages_py.dir
+
+# All Build rule for target.
+launching/CMakeFiles/roscpp_generate_messages_py.dir/all:
+	$(MAKE) -f launching/CMakeFiles/roscpp_generate_messages_py.dir/build.make launching/CMakeFiles/roscpp_generate_messages_py.dir/depend
+	$(MAKE) -f launching/CMakeFiles/roscpp_generate_messages_py.dir/build.make launching/CMakeFiles/roscpp_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
+.PHONY : launching/CMakeFiles/roscpp_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_py: launching/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+.PHONY : roscpp_generate_messages_py
+
+# clean rule for target.
+launching/CMakeFiles/roscpp_generate_messages_py.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/roscpp_generate_messages_py.dir/build.make launching/CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : launching/CMakeFiles/roscpp_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/roscpp_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
+.PHONY : launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_eus: launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_eus
+
+# clean rule for target.
+launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+.PHONY : launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
+.PHONY : launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_nodejs: launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_nodejs
+
+# clean rule for target.
+launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+.PHONY : launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/roscpp_generate_messages_lisp.dir
+
+# All Build rule for target.
+launching/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
+	$(MAKE) -f launching/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make launching/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+	$(MAKE) -f launching/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make launching/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
+.PHONY : launching/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_lisp: launching/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+
+.PHONY : roscpp_generate_messages_lisp
+
+# clean rule for target.
+launching/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make launching/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+.PHONY : launching/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/std_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+launching/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f launching/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make launching/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f launching/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make launching/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
+.PHONY : launching/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_eus: launching/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+
+.PHONY : std_msgs_generate_messages_eus
+
+# clean rule for target.
+launching/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make launching/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+.PHONY : launching/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
+.PHONY : launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_lisp: launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# clean rule for target.
+launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/std_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
+.PHONY : launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : std_msgs_generate_messages_lisp
+
+# clean rule for target.
+launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
+.PHONY : launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_nodejs: launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_nodejs
+
+# clean rule for target.
+launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+.PHONY : launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/geometry_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
+.PHONY : launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_py
+
+# clean rule for target.
+launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target launching/CMakeFiles/launching.dir
+
+# All Build rule for target.
+launching/CMakeFiles/launching.dir/all:
+	$(MAKE) -f launching/CMakeFiles/launching.dir/build.make launching/CMakeFiles/launching.dir/depend
+	$(MAKE) -f launching/CMakeFiles/launching.dir/build.make launching/CMakeFiles/launching.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target launching"
+.PHONY : launching/CMakeFiles/launching.dir/all
+
+# Include target in all.
+all: launching/CMakeFiles/launching.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+launching/CMakeFiles/launching.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 launching/CMakeFiles/launching.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : launching/CMakeFiles/launching.dir/rule
+
+# Convenience name for target.
+launching: launching/CMakeFiles/launching.dir/rule
+
+.PHONY : launching
+
+# clean rule for target.
+launching/CMakeFiles/launching.dir/clean:
+	$(MAKE) -f launching/CMakeFiles/launching.dir/build.make launching/CMakeFiles/launching.dir/clean
+.PHONY : launching/CMakeFiles/launching.dir/clean
+
+# clean rule for target.
+clean: launching/CMakeFiles/launching.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory joy
 
 # Convenience name for "all" pass in the directory.
-joy/all: joy/CMakeFiles/gpio_joy.dir/all
 joy/all: joy/CMakeFiles/joy_node.dir/all
 joy/all: joy/CMakeFiles/xbox.dir/all
+joy/all: joy/CMakeFiles/gpio_joy.dir/all
 
 .PHONY : joy/all
 
 # Convenience name for "clean" pass in the directory.
+joy/clean: joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+joy/clean: joy/CMakeFiles/_run_tests_joy_roslint.dir/clean
+joy/clean: joy/CMakeFiles/joy_node.dir/clean
+joy/clean: joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+joy/clean: joy/CMakeFiles/roslint_joy.dir/clean
+joy/clean: joy/CMakeFiles/_run_tests_joy.dir/clean
+joy/clean: joy/CMakeFiles/roslint.dir/clean
 joy/clean: joy/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 joy/clean: joy/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 joy/clean: joy/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/clean
-joy/clean: joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
-joy/clean: joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-joy/clean: joy/CMakeFiles/run_tests_joy_roslint.dir/clean
-joy/clean: joy/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-joy/clean: joy/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-joy/clean: joy/CMakeFiles/_run_tests_joy_roslint.dir/clean
-joy/clean: joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-joy/clean: joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-joy/clean: joy/CMakeFiles/roscpp_generate_messages_py.dir/clean
-joy/clean: joy/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-joy/clean: joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-joy/clean: joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
-joy/clean: joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 joy/clean: joy/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
-joy/clean: joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-joy/clean: joy/CMakeFiles/gpio_joy.dir/clean
-joy/clean: joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-joy/clean: joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
-joy/clean: joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-joy/clean: joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
-joy/clean: joy/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-joy/clean: joy/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-joy/clean: joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
-joy/clean: joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-joy/clean: joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-joy/clean: joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-joy/clean: joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-joy/clean: joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-joy/clean: joy/CMakeFiles/roslint.dir/clean
-joy/clean: joy/CMakeFiles/roslint_joy.dir/clean
-joy/clean: joy/CMakeFiles/run_tests_joy.dir/clean
-joy/clean: joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-joy/clean: joy/CMakeFiles/run_tests_joy_roslint_package.dir/clean
 joy/clean: joy/CMakeFiles/_run_tests_joy_roslint_package.dir/clean
-joy/clean: joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+joy/clean: joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
+joy/clean: joy/CMakeFiles/run_tests_joy_roslint.dir/clean
 joy/clean: joy/CMakeFiles/clean_test_results_joy.dir/clean
-joy/clean: joy/CMakeFiles/joy_node.dir/clean
+joy/clean: joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+joy/clean: joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
+joy/clean: joy/CMakeFiles/run_tests_joy.dir/clean
+joy/clean: joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
+joy/clean: joy/CMakeFiles/run_tests_joy_roslint_package.dir/clean
 joy/clean: joy/CMakeFiles/xbox.dir/clean
-joy/clean: joy/CMakeFiles/_run_tests_joy.dir/clean
+joy/clean: joy/CMakeFiles/gpio_joy.dir/clean
 
 .PHONY : joy/clean
 
@@ -446,6 +1180,235 @@ joy/clean: joy/CMakeFiles/_run_tests_joy.dir/clean
 joy/preinstall:
 
 .PHONY : joy/preinstall
+
+#=============================================================================
+# Target rules for target joy/CMakeFiles/sensor_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_py"
+.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_py: joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_py
+
+# clean rule for target.
+joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target joy/CMakeFiles/_run_tests_joy_roslint.dir
+
+# All Build rule for target.
+joy/CMakeFiles/_run_tests_joy_roslint.dir/all: joy/CMakeFiles/_run_tests_joy_roslint_package.dir/all
+	$(MAKE) -f joy/CMakeFiles/_run_tests_joy_roslint.dir/build.make joy/CMakeFiles/_run_tests_joy_roslint.dir/depend
+	$(MAKE) -f joy/CMakeFiles/_run_tests_joy_roslint.dir/build.make joy/CMakeFiles/_run_tests_joy_roslint.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target _run_tests_joy_roslint"
+.PHONY : joy/CMakeFiles/_run_tests_joy_roslint.dir/all
+
+# Build rule for subdir invocation for target.
+joy/CMakeFiles/_run_tests_joy_roslint.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/_run_tests_joy_roslint.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : joy/CMakeFiles/_run_tests_joy_roslint.dir/rule
+
+# Convenience name for target.
+_run_tests_joy_roslint: joy/CMakeFiles/_run_tests_joy_roslint.dir/rule
+
+.PHONY : _run_tests_joy_roslint
+
+# clean rule for target.
+joy/CMakeFiles/_run_tests_joy_roslint.dir/clean:
+	$(MAKE) -f joy/CMakeFiles/_run_tests_joy_roslint.dir/build.make joy/CMakeFiles/_run_tests_joy_roslint.dir/clean
+.PHONY : joy/CMakeFiles/_run_tests_joy_roslint.dir/clean
+
+# clean rule for target.
+clean: joy/CMakeFiles/_run_tests_joy_roslint.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target joy/CMakeFiles/joy_node.dir
+
+# All Build rule for target.
+joy/CMakeFiles/joy_node.dir/all:
+	$(MAKE) -f joy/CMakeFiles/joy_node.dir/build.make joy/CMakeFiles/joy_node.dir/depend
+	$(MAKE) -f joy/CMakeFiles/joy_node.dir/build.make joy/CMakeFiles/joy_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target joy_node"
+.PHONY : joy/CMakeFiles/joy_node.dir/all
+
+# Include target in all.
+all: joy/CMakeFiles/joy_node.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+joy/CMakeFiles/joy_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/joy_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : joy/CMakeFiles/joy_node.dir/rule
+
+# Convenience name for target.
+joy_node: joy/CMakeFiles/joy_node.dir/rule
+
+.PHONY : joy_node
+
+# clean rule for target.
+joy/CMakeFiles/joy_node.dir/clean:
+	$(MAKE) -f joy/CMakeFiles/joy_node.dir/build.make joy/CMakeFiles/joy_node.dir/clean
+.PHONY : joy/CMakeFiles/joy_node.dir/clean
+
+# clean rule for target.
+clean: joy/CMakeFiles/joy_node.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
+.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_nodejs: joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_nodejs
+
+# clean rule for target.
+joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target joy/CMakeFiles/roslint_joy.dir
+
+# All Build rule for target.
+joy/CMakeFiles/roslint_joy.dir/all:
+	$(MAKE) -f joy/CMakeFiles/roslint_joy.dir/build.make joy/CMakeFiles/roslint_joy.dir/depend
+	$(MAKE) -f joy/CMakeFiles/roslint_joy.dir/build.make joy/CMakeFiles/roslint_joy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target roslint_joy"
+.PHONY : joy/CMakeFiles/roslint_joy.dir/all
+
+# Build rule for subdir invocation for target.
+joy/CMakeFiles/roslint_joy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/roslint_joy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : joy/CMakeFiles/roslint_joy.dir/rule
+
+# Convenience name for target.
+roslint_joy: joy/CMakeFiles/roslint_joy.dir/rule
+
+.PHONY : roslint_joy
+
+# clean rule for target.
+joy/CMakeFiles/roslint_joy.dir/clean:
+	$(MAKE) -f joy/CMakeFiles/roslint_joy.dir/build.make joy/CMakeFiles/roslint_joy.dir/clean
+.PHONY : joy/CMakeFiles/roslint_joy.dir/clean
+
+# clean rule for target.
+clean: joy/CMakeFiles/roslint_joy.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target joy/CMakeFiles/_run_tests_joy.dir
+
+# All Build rule for target.
+joy/CMakeFiles/_run_tests_joy.dir/all: joy/CMakeFiles/_run_tests_joy_roslint.dir/all
+	$(MAKE) -f joy/CMakeFiles/_run_tests_joy.dir/build.make joy/CMakeFiles/_run_tests_joy.dir/depend
+	$(MAKE) -f joy/CMakeFiles/_run_tests_joy.dir/build.make joy/CMakeFiles/_run_tests_joy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target _run_tests_joy"
+.PHONY : joy/CMakeFiles/_run_tests_joy.dir/all
+
+# Build rule for subdir invocation for target.
+joy/CMakeFiles/_run_tests_joy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/_run_tests_joy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : joy/CMakeFiles/_run_tests_joy.dir/rule
+
+# Convenience name for target.
+_run_tests_joy: joy/CMakeFiles/_run_tests_joy.dir/rule
+
+.PHONY : _run_tests_joy
+
+# clean rule for target.
+joy/CMakeFiles/_run_tests_joy.dir/clean:
+	$(MAKE) -f joy/CMakeFiles/_run_tests_joy.dir/build.make joy/CMakeFiles/_run_tests_joy.dir/clean
+.PHONY : joy/CMakeFiles/_run_tests_joy.dir/clean
+
+# clean rule for target.
+clean: joy/CMakeFiles/_run_tests_joy.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target joy/CMakeFiles/roslint.dir
+
+# All Build rule for target.
+joy/CMakeFiles/roslint.dir/all: joy/CMakeFiles/roslint_joy.dir/all
+	$(MAKE) -f joy/CMakeFiles/roslint.dir/build.make joy/CMakeFiles/roslint.dir/depend
+	$(MAKE) -f joy/CMakeFiles/roslint.dir/build.make joy/CMakeFiles/roslint.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target roslint"
+.PHONY : joy/CMakeFiles/roslint.dir/all
+
+# Build rule for subdir invocation for target.
+joy/CMakeFiles/roslint.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/roslint.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : joy/CMakeFiles/roslint.dir/rule
+
+# Convenience name for target.
+roslint: joy/CMakeFiles/roslint.dir/rule
+
+.PHONY : roslint
+
+# clean rule for target.
+joy/CMakeFiles/roslint.dir/clean:
+	$(MAKE) -f joy/CMakeFiles/roslint.dir/build.make joy/CMakeFiles/roslint.dir/clean
+.PHONY : joy/CMakeFiles/roslint.dir/clean
+
+# clean rule for target.
+clean: joy/CMakeFiles/roslint.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target joy/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
@@ -544,422 +1507,6 @@ clean: joy/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_cpp"
-.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-diagnostic_msgs_generate_messages_cpp: joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : diagnostic_msgs_generate_messages_cpp
-
-# clean rule for target.
-joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
-.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/std_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
-.PHONY : joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : std_msgs_generate_messages_lisp
-
-# clean rule for target.
-joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/run_tests_joy_roslint.dir
-
-# All Build rule for target.
-joy/CMakeFiles/run_tests_joy_roslint.dir/all: joy/CMakeFiles/run_tests_joy_roslint_package.dir/all
-	$(MAKE) -f joy/CMakeFiles/run_tests_joy_roslint.dir/build.make joy/CMakeFiles/run_tests_joy_roslint.dir/depend
-	$(MAKE) -f joy/CMakeFiles/run_tests_joy_roslint.dir/build.make joy/CMakeFiles/run_tests_joy_roslint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target run_tests_joy_roslint"
-.PHONY : joy/CMakeFiles/run_tests_joy_roslint.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/run_tests_joy_roslint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/run_tests_joy_roslint.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/run_tests_joy_roslint.dir/rule
-
-# Convenience name for target.
-run_tests_joy_roslint: joy/CMakeFiles/run_tests_joy_roslint.dir/rule
-
-.PHONY : run_tests_joy_roslint
-
-# clean rule for target.
-joy/CMakeFiles/run_tests_joy_roslint.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/run_tests_joy_roslint.dir/build.make joy/CMakeFiles/run_tests_joy_roslint.dir/clean
-.PHONY : joy/CMakeFiles/run_tests_joy_roslint.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/run_tests_joy_roslint.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/std_msgs_generate_messages_eus.dir
-
-# All Build rule for target.
-joy/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f joy/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make joy/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f joy/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make joy/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
-.PHONY : joy/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_eus: joy/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-.PHONY : std_msgs_generate_messages_eus
-
-# clean rule for target.
-joy/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make joy/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-.PHONY : joy/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/roscpp_generate_messages_lisp.dir
-
-# All Build rule for target.
-joy/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
-	$(MAKE) -f joy/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make joy/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
-	$(MAKE) -f joy/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make joy/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
-.PHONY : joy/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: joy/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-.PHONY : roscpp_generate_messages_lisp
-
-# clean rule for target.
-joy/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make joy/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-.PHONY : joy/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/_run_tests_joy_roslint.dir
-
-# All Build rule for target.
-joy/CMakeFiles/_run_tests_joy_roslint.dir/all: joy/CMakeFiles/_run_tests_joy_roslint_package.dir/all
-	$(MAKE) -f joy/CMakeFiles/_run_tests_joy_roslint.dir/build.make joy/CMakeFiles/_run_tests_joy_roslint.dir/depend
-	$(MAKE) -f joy/CMakeFiles/_run_tests_joy_roslint.dir/build.make joy/CMakeFiles/_run_tests_joy_roslint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target _run_tests_joy_roslint"
-.PHONY : joy/CMakeFiles/_run_tests_joy_roslint.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/_run_tests_joy_roslint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/_run_tests_joy_roslint.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/_run_tests_joy_roslint.dir/rule
-
-# Convenience name for target.
-_run_tests_joy_roslint: joy/CMakeFiles/_run_tests_joy_roslint.dir/rule
-
-.PHONY : _run_tests_joy_roslint
-
-# clean rule for target.
-joy/CMakeFiles/_run_tests_joy_roslint.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/_run_tests_joy_roslint.dir/build.make joy/CMakeFiles/_run_tests_joy_roslint.dir/clean
-.PHONY : joy/CMakeFiles/_run_tests_joy_roslint.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/_run_tests_joy_roslint.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
-.PHONY : joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_nodejs
-
-# clean rule for target.
-joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-.PHONY : joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
-
-# All Build rule for target.
-joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
-.PHONY : joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_eus: joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_eus
-
-# clean rule for target.
-joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-.PHONY : joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/roscpp_generate_messages_py.dir
-
-# All Build rule for target.
-joy/CMakeFiles/roscpp_generate_messages_py.dir/all:
-	$(MAKE) -f joy/CMakeFiles/roscpp_generate_messages_py.dir/build.make joy/CMakeFiles/roscpp_generate_messages_py.dir/depend
-	$(MAKE) -f joy/CMakeFiles/roscpp_generate_messages_py.dir/build.make joy/CMakeFiles/roscpp_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
-.PHONY : joy/CMakeFiles/roscpp_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/roscpp_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: joy/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-.PHONY : roscpp_generate_messages_py
-
-# clean rule for target.
-joy/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/roscpp_generate_messages_py.dir/build.make joy/CMakeFiles/roscpp_generate_messages_py.dir/clean
-.PHONY : joy/CMakeFiles/roscpp_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/roscpp_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/roscpp_generate_messages_cpp.dir
-
-# All Build rule for target.
-joy/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
-	$(MAKE) -f joy/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make joy/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
-	$(MAKE) -f joy/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make joy/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
-.PHONY : joy/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: joy/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-.PHONY : roscpp_generate_messages_cpp
-
-# clean rule for target.
-joy/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make joy/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-.PHONY : joy/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir
-
-# All Build rule for target.
-joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
-.PHONY : joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_eus: joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_eus
-
-# clean rule for target.
-joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-.PHONY : joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir
-
-# All Build rule for target.
-joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_eus"
-.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_eus: joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_eus
-
-# clean rule for target.
-joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
-.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/std_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
-.PHONY : joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : std_msgs_generate_messages_cpp
-
-# clean rule for target.
-joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-.PHONY : joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target joy/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
@@ -988,648 +1535,6 @@ joy/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean:
 
 # clean rule for target.
 clean: joy/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
-.PHONY : joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# clean rule for target.
-joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-.PHONY : joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/gpio_joy.dir
-
-# All Build rule for target.
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/roscpp_generate_messages_py.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/roscpp_generate_messages_eus.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/std_msgs_generate_messages_py.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-	$(MAKE) -f joy/CMakeFiles/gpio_joy.dir/build.make joy/CMakeFiles/gpio_joy.dir/depend
-	$(MAKE) -f joy/CMakeFiles/gpio_joy.dir/build.make joy/CMakeFiles/gpio_joy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target gpio_joy"
-.PHONY : joy/CMakeFiles/gpio_joy.dir/all
-
-# Include target in all.
-all: joy/CMakeFiles/gpio_joy.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/gpio_joy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/gpio_joy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/gpio_joy.dir/rule
-
-# Convenience name for target.
-gpio_joy: joy/CMakeFiles/gpio_joy.dir/rule
-
-.PHONY : gpio_joy
-
-# clean rule for target.
-joy/CMakeFiles/gpio_joy.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/gpio_joy.dir/build.make joy/CMakeFiles/gpio_joy.dir/clean
-.PHONY : joy/CMakeFiles/gpio_joy.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/gpio_joy.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
-.PHONY : joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# clean rule for target.
-joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-.PHONY : joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_py"
-.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-diagnostic_msgs_generate_messages_py: joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
-
-.PHONY : diagnostic_msgs_generate_messages_py
-
-# clean rule for target.
-joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
-.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
-.PHONY : joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# clean rule for target.
-joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-.PHONY : joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_lisp"
-.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-diagnostic_msgs_generate_messages_lisp: joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : diagnostic_msgs_generate_messages_lisp
-
-# clean rule for target.
-joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
-.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/roscpp_generate_messages_eus.dir
-
-# All Build rule for target.
-joy/CMakeFiles/roscpp_generate_messages_eus.dir/all:
-	$(MAKE) -f joy/CMakeFiles/roscpp_generate_messages_eus.dir/build.make joy/CMakeFiles/roscpp_generate_messages_eus.dir/depend
-	$(MAKE) -f joy/CMakeFiles/roscpp_generate_messages_eus.dir/build.make joy/CMakeFiles/roscpp_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
-.PHONY : joy/CMakeFiles/roscpp_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/roscpp_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_eus: joy/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-.PHONY : roscpp_generate_messages_eus
-
-# clean rule for target.
-joy/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/roscpp_generate_messages_eus.dir/build.make joy/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-.PHONY : joy/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/std_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-joy/CMakeFiles/std_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f joy/CMakeFiles/std_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/std_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f joy/CMakeFiles/std_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/std_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
-.PHONY : joy/CMakeFiles/std_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/std_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: joy/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-.PHONY : std_msgs_generate_messages_py
-
-# clean rule for target.
-joy/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/std_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-.PHONY : joy/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
-.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_nodejs: joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_nodejs
-
-# clean rule for target.
-joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
-.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
-.PHONY : joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# clean rule for target.
-joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-.PHONY : joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/sensor_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_py"
-.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_py: joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_py
-
-# clean rule for target.
-joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
-.PHONY : joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_nodejs: joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_nodejs
-
-# clean rule for target.
-joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-.PHONY : joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
-.PHONY : joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_nodejs: joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_msgs_generate_messages_nodejs
-
-# clean rule for target.
-joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-.PHONY : joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/geometry_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
-.PHONY : joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_py
-
-# clean rule for target.
-joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-.PHONY : joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/roslint.dir
-
-# All Build rule for target.
-joy/CMakeFiles/roslint.dir/all: joy/CMakeFiles/roslint_joy.dir/all
-	$(MAKE) -f joy/CMakeFiles/roslint.dir/build.make joy/CMakeFiles/roslint.dir/depend
-	$(MAKE) -f joy/CMakeFiles/roslint.dir/build.make joy/CMakeFiles/roslint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target roslint"
-.PHONY : joy/CMakeFiles/roslint.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/roslint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/roslint.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/roslint.dir/rule
-
-# Convenience name for target.
-roslint: joy/CMakeFiles/roslint.dir/rule
-
-.PHONY : roslint
-
-# clean rule for target.
-joy/CMakeFiles/roslint.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/roslint.dir/build.make joy/CMakeFiles/roslint.dir/clean
-.PHONY : joy/CMakeFiles/roslint.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/roslint.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/roslint_joy.dir
-
-# All Build rule for target.
-joy/CMakeFiles/roslint_joy.dir/all:
-	$(MAKE) -f joy/CMakeFiles/roslint_joy.dir/build.make joy/CMakeFiles/roslint_joy.dir/depend
-	$(MAKE) -f joy/CMakeFiles/roslint_joy.dir/build.make joy/CMakeFiles/roslint_joy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target roslint_joy"
-.PHONY : joy/CMakeFiles/roslint_joy.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/roslint_joy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/roslint_joy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/roslint_joy.dir/rule
-
-# Convenience name for target.
-roslint_joy: joy/CMakeFiles/roslint_joy.dir/rule
-
-.PHONY : roslint_joy
-
-# clean rule for target.
-joy/CMakeFiles/roslint_joy.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/roslint_joy.dir/build.make joy/CMakeFiles/roslint_joy.dir/clean
-.PHONY : joy/CMakeFiles/roslint_joy.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/roslint_joy.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/run_tests_joy.dir
-
-# All Build rule for target.
-joy/CMakeFiles/run_tests_joy.dir/all: joy/CMakeFiles/run_tests_joy_roslint.dir/all
-	$(MAKE) -f joy/CMakeFiles/run_tests_joy.dir/build.make joy/CMakeFiles/run_tests_joy.dir/depend
-	$(MAKE) -f joy/CMakeFiles/run_tests_joy.dir/build.make joy/CMakeFiles/run_tests_joy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target run_tests_joy"
-.PHONY : joy/CMakeFiles/run_tests_joy.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/run_tests_joy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/run_tests_joy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/run_tests_joy.dir/rule
-
-# Convenience name for target.
-run_tests_joy: joy/CMakeFiles/run_tests_joy.dir/rule
-
-.PHONY : run_tests_joy
-
-# clean rule for target.
-joy/CMakeFiles/run_tests_joy.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/run_tests_joy.dir/build.make joy/CMakeFiles/run_tests_joy.dir/clean
-.PHONY : joy/CMakeFiles/run_tests_joy.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/run_tests_joy.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
-.PHONY : joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# clean rule for target.
-joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-.PHONY : joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target joy/CMakeFiles/run_tests_joy_roslint_package.dir
-
-# All Build rule for target.
-joy/CMakeFiles/run_tests_joy_roslint_package.dir/all:
-	$(MAKE) -f joy/CMakeFiles/run_tests_joy_roslint_package.dir/build.make joy/CMakeFiles/run_tests_joy_roslint_package.dir/depend
-	$(MAKE) -f joy/CMakeFiles/run_tests_joy_roslint_package.dir/build.make joy/CMakeFiles/run_tests_joy_roslint_package.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target run_tests_joy_roslint_package"
-.PHONY : joy/CMakeFiles/run_tests_joy_roslint_package.dir/all
-
-# Build rule for subdir invocation for target.
-joy/CMakeFiles/run_tests_joy_roslint_package.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/run_tests_joy_roslint_package.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/run_tests_joy_roslint_package.dir/rule
-
-# Convenience name for target.
-run_tests_joy_roslint_package: joy/CMakeFiles/run_tests_joy_roslint_package.dir/rule
-
-.PHONY : run_tests_joy_roslint_package
-
-# clean rule for target.
-joy/CMakeFiles/run_tests_joy_roslint_package.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/run_tests_joy_roslint_package.dir/build.make joy/CMakeFiles/run_tests_joy_roslint_package.dir/clean
-.PHONY : joy/CMakeFiles/run_tests_joy_roslint_package.dir/clean
-
-# clean rule for target.
-clean: joy/CMakeFiles/run_tests_joy_roslint_package.dir/clean
 
 .PHONY : clean
 
@@ -1667,34 +1572,66 @@ clean: joy/CMakeFiles/_run_tests_joy_roslint_package.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target joy/CMakeFiles/roscpp_generate_messages_nodejs.dir
+# Target rules for target joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
-	$(MAKE) -f joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
-	$(MAKE) -f joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
-.PHONY : joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_cpp"
+.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
+joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_nodejs: joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+diagnostic_msgs_generate_messages_cpp: joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
 
-.PHONY : roscpp_generate_messages_nodejs
-
-# clean rule for target.
-joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-.PHONY : joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+.PHONY : diagnostic_msgs_generate_messages_cpp
 
 # clean rule for target.
-clean: joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
+.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target joy/CMakeFiles/run_tests_joy_roslint.dir
+
+# All Build rule for target.
+joy/CMakeFiles/run_tests_joy_roslint.dir/all: joy/CMakeFiles/run_tests_joy_roslint_package.dir/all
+	$(MAKE) -f joy/CMakeFiles/run_tests_joy_roslint.dir/build.make joy/CMakeFiles/run_tests_joy_roslint.dir/depend
+	$(MAKE) -f joy/CMakeFiles/run_tests_joy_roslint.dir/build.make joy/CMakeFiles/run_tests_joy_roslint.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target run_tests_joy_roslint"
+.PHONY : joy/CMakeFiles/run_tests_joy_roslint.dir/all
+
+# Build rule for subdir invocation for target.
+joy/CMakeFiles/run_tests_joy_roslint.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/run_tests_joy_roslint.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : joy/CMakeFiles/run_tests_joy_roslint.dir/rule
+
+# Convenience name for target.
+run_tests_joy_roslint: joy/CMakeFiles/run_tests_joy_roslint.dir/rule
+
+.PHONY : run_tests_joy_roslint
+
+# clean rule for target.
+joy/CMakeFiles/run_tests_joy_roslint.dir/clean:
+	$(MAKE) -f joy/CMakeFiles/run_tests_joy_roslint.dir/build.make joy/CMakeFiles/run_tests_joy_roslint.dir/clean
+.PHONY : joy/CMakeFiles/run_tests_joy_roslint.dir/clean
+
+# clean rule for target.
+clean: joy/CMakeFiles/run_tests_joy_roslint.dir/clean
 
 .PHONY : clean
 
@@ -1731,39 +1668,162 @@ clean: joy/CMakeFiles/clean_test_results_joy.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target joy/CMakeFiles/joy_node.dir
+# Target rules for target joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-joy/CMakeFiles/joy_node.dir/all:
-	$(MAKE) -f joy/CMakeFiles/joy_node.dir/build.make joy/CMakeFiles/joy_node.dir/depend
-	$(MAKE) -f joy/CMakeFiles/joy_node.dir/build.make joy/CMakeFiles/joy_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target joy_node"
-.PHONY : joy/CMakeFiles/joy_node.dir/all
-
-# Include target in all.
-all: joy/CMakeFiles/joy_node.dir/all
-
-.PHONY : all
+joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_eus"
+.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-joy/CMakeFiles/joy_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/joy_node.dir/all
+joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/joy_node.dir/rule
+	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-joy_node: joy/CMakeFiles/joy_node.dir/rule
+sensor_msgs_generate_messages_eus: joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
-.PHONY : joy_node
-
-# clean rule for target.
-joy/CMakeFiles/joy_node.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/joy_node.dir/build.make joy/CMakeFiles/joy_node.dir/clean
-.PHONY : joy/CMakeFiles/joy_node.dir/clean
+.PHONY : sensor_msgs_generate_messages_eus
 
 # clean rule for target.
-clean: joy/CMakeFiles/joy_node.dir/clean
+joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+.PHONY : joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_lisp"
+.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+diagnostic_msgs_generate_messages_lisp: joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : diagnostic_msgs_generate_messages_lisp
+
+# clean rule for target.
+joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
+.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target joy/CMakeFiles/run_tests_joy.dir
+
+# All Build rule for target.
+joy/CMakeFiles/run_tests_joy.dir/all: joy/CMakeFiles/run_tests_joy_roslint.dir/all
+	$(MAKE) -f joy/CMakeFiles/run_tests_joy.dir/build.make joy/CMakeFiles/run_tests_joy.dir/depend
+	$(MAKE) -f joy/CMakeFiles/run_tests_joy.dir/build.make joy/CMakeFiles/run_tests_joy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target run_tests_joy"
+.PHONY : joy/CMakeFiles/run_tests_joy.dir/all
+
+# Build rule for subdir invocation for target.
+joy/CMakeFiles/run_tests_joy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/run_tests_joy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : joy/CMakeFiles/run_tests_joy.dir/rule
+
+# Convenience name for target.
+run_tests_joy: joy/CMakeFiles/run_tests_joy.dir/rule
+
+.PHONY : run_tests_joy
+
+# clean rule for target.
+joy/CMakeFiles/run_tests_joy.dir/clean:
+	$(MAKE) -f joy/CMakeFiles/run_tests_joy.dir/build.make joy/CMakeFiles/run_tests_joy.dir/clean
+.PHONY : joy/CMakeFiles/run_tests_joy.dir/clean
+
+# clean rule for target.
+clean: joy/CMakeFiles/run_tests_joy.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_py"
+.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+diagnostic_msgs_generate_messages_py: joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
+
+.PHONY : diagnostic_msgs_generate_messages_py
+
+# clean rule for target.
+joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
+.PHONY : joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target joy/CMakeFiles/run_tests_joy_roslint_package.dir
+
+# All Build rule for target.
+joy/CMakeFiles/run_tests_joy_roslint_package.dir/all:
+	$(MAKE) -f joy/CMakeFiles/run_tests_joy_roslint_package.dir/build.make joy/CMakeFiles/run_tests_joy_roslint_package.dir/depend
+	$(MAKE) -f joy/CMakeFiles/run_tests_joy_roslint_package.dir/build.make joy/CMakeFiles/run_tests_joy_roslint_package.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target run_tests_joy_roslint_package"
+.PHONY : joy/CMakeFiles/run_tests_joy_roslint_package.dir/all
+
+# Build rule for subdir invocation for target.
+joy/CMakeFiles/run_tests_joy_roslint_package.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/run_tests_joy_roslint_package.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
+.PHONY : joy/CMakeFiles/run_tests_joy_roslint_package.dir/rule
+
+# Convenience name for target.
+run_tests_joy_roslint_package: joy/CMakeFiles/run_tests_joy_roslint_package.dir/rule
+
+.PHONY : run_tests_joy_roslint_package
+
+# clean rule for target.
+joy/CMakeFiles/run_tests_joy_roslint_package.dir/clean:
+	$(MAKE) -f joy/CMakeFiles/run_tests_joy_roslint_package.dir/build.make joy/CMakeFiles/run_tests_joy_roslint_package.dir/clean
+.PHONY : joy/CMakeFiles/run_tests_joy_roslint_package.dir/clean
+
+# clean rule for target.
+clean: joy/CMakeFiles/run_tests_joy_roslint_package.dir/clean
 
 .PHONY : clean
 
@@ -1771,39 +1831,39 @@ clean: joy/CMakeFiles/joy_node.dir/clean
 # Target rules for target joy/CMakeFiles/xbox.dir
 
 # All Build rule for target.
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/std_msgs_generate_messages_py.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/roscpp_generate_messages_eus.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/roscpp_generate_messages_py.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+joy/CMakeFiles/xbox.dir/all: launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/roscpp_generate_messages_py.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
+joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
 joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/roscpp_generate_messages_eus.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/std_msgs_generate_messages_py.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+joy/CMakeFiles/xbox.dir/all: joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
 	$(MAKE) -f joy/CMakeFiles/xbox.dir/build.make joy/CMakeFiles/xbox.dir/depend
 	$(MAKE) -f joy/CMakeFiles/xbox.dir/build.make joy/CMakeFiles/xbox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=46,47 "Built target xbox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=50,51 "Built target xbox"
 .PHONY : joy/CMakeFiles/xbox.dir/all
 
 # Include target in all.
@@ -1834,34 +1894,68 @@ clean: joy/CMakeFiles/xbox.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target joy/CMakeFiles/_run_tests_joy.dir
+# Target rules for target joy/CMakeFiles/gpio_joy.dir
 
 # All Build rule for target.
-joy/CMakeFiles/_run_tests_joy.dir/all: joy/CMakeFiles/_run_tests_joy_roslint.dir/all
-	$(MAKE) -f joy/CMakeFiles/_run_tests_joy.dir/build.make joy/CMakeFiles/_run_tests_joy.dir/depend
-	$(MAKE) -f joy/CMakeFiles/_run_tests_joy.dir/build.make joy/CMakeFiles/_run_tests_joy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num= "Built target _run_tests_joy"
-.PHONY : joy/CMakeFiles/_run_tests_joy.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/std_msgs_generate_messages_py.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/roscpp_generate_messages_eus.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/roscpp_generate_messages_py.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: launching/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
+joy/CMakeFiles/gpio_joy.dir/all: joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
+	$(MAKE) -f joy/CMakeFiles/gpio_joy.dir/build.make joy/CMakeFiles/gpio_joy.dir/depend
+	$(MAKE) -f joy/CMakeFiles/gpio_joy.dir/build.make joy/CMakeFiles/gpio_joy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target gpio_joy"
+.PHONY : joy/CMakeFiles/gpio_joy.dir/all
+
+# Include target in all.
+all: joy/CMakeFiles/gpio_joy.dir/all
+
+.PHONY : all
 
 # Build rule for subdir invocation for target.
-joy/CMakeFiles/_run_tests_joy.dir/rule: cmake_check_build_system
+joy/CMakeFiles/gpio_joy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/gpio_joy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 joy/CMakeFiles/_run_tests_joy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles 0
-.PHONY : joy/CMakeFiles/_run_tests_joy.dir/rule
+.PHONY : joy/CMakeFiles/gpio_joy.dir/rule
 
 # Convenience name for target.
-_run_tests_joy: joy/CMakeFiles/_run_tests_joy.dir/rule
+gpio_joy: joy/CMakeFiles/gpio_joy.dir/rule
 
-.PHONY : _run_tests_joy
-
-# clean rule for target.
-joy/CMakeFiles/_run_tests_joy.dir/clean:
-	$(MAKE) -f joy/CMakeFiles/_run_tests_joy.dir/build.make joy/CMakeFiles/_run_tests_joy.dir/clean
-.PHONY : joy/CMakeFiles/_run_tests_joy.dir/clean
+.PHONY : gpio_joy
 
 # clean rule for target.
-clean: joy/CMakeFiles/_run_tests_joy.dir/clean
+joy/CMakeFiles/gpio_joy.dir/clean:
+	$(MAKE) -f joy/CMakeFiles/gpio_joy.dir/build.make joy/CMakeFiles/gpio_joy.dir/clean
+.PHONY : joy/CMakeFiles/gpio_joy.dir/clean
+
+# clean rule for target.
+clean: joy/CMakeFiles/gpio_joy.dir/clean
 
 .PHONY : clean
 
@@ -1931,7 +2025,7 @@ clean: twist2multiarray/CMakeFiles/TR.dir/clean
 twist2multiarray/CMakeFiles/node.dir/all:
 	$(MAKE) -f twist2multiarray/CMakeFiles/node.dir/build.make twist2multiarray/CMakeFiles/node.dir/depend
 	$(MAKE) -f twist2multiarray/CMakeFiles/node.dir/build.make twist2multiarray/CMakeFiles/node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target node"
 .PHONY : twist2multiarray/CMakeFiles/node.dir/all
 
 # Include target in all.
@@ -2038,21 +2132,21 @@ wtr_canbus/wtr_usb2ros/preinstall:
 # Target rules for target wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir
 
 # All Build rule for target.
-wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: joy/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: joy/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: joy/CMakeFiles/roscpp_generate_messages_py.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: joy/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: joy/CMakeFiles/roscpp_generate_messages_eus.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: joy/CMakeFiles/std_msgs_generate_messages_py.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: launching/CMakeFiles/std_msgs_generate_messages_py.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: launching/CMakeFiles/roscpp_generate_messages_eus.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: launching/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: launching/CMakeFiles/roscpp_generate_messages_py.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: launching/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: launching/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_py.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_cpp.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_lisp.dir/all
@@ -2094,12 +2188,12 @@ clean: wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/clean
 # Target rules for target wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_py.dir
 
 # All Build rule for target.
-wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_py.dir/all: joy/CMakeFiles/std_msgs_generate_messages_py.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_py.dir/all: launching/CMakeFiles/std_msgs_generate_messages_py.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_py.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_Test.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_py.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_motor_msgs.dir/all
 	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_py.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_py.dir/depend
 	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_py.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=43,44,45 "Built target wtr_usb2ros_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=47,48,49 "Built target wtr_usb2ros_generate_messages_py"
 .PHONY : wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2160,21 +2254,21 @@ clean: wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_gencpp.dir/clean
 # Target rules for target wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir
 
 # All Build rule for target.
-wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: joy/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: joy/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: joy/CMakeFiles/roscpp_generate_messages_py.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: joy/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: joy/CMakeFiles/roscpp_generate_messages_eus.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: joy/CMakeFiles/std_msgs_generate_messages_py.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: launching/CMakeFiles/std_msgs_generate_messages_py.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: launching/CMakeFiles/roscpp_generate_messages_eus.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: launching/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: launching/CMakeFiles/roscpp_generate_messages_py.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: launching/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: launching/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_py.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_cpp.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_lisp.dir/all
@@ -2182,7 +2276,7 @@ wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: wtr_canbus/wtr_usb2ros/CMakeFile
 wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_nodejs.dir/all
 	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/depend
 	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target main"
 .PHONY : wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/all
 
 # Include target in all.
@@ -2216,12 +2310,12 @@ clean: wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/clean
 # Target rules for target wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_cpp.dir
 
 # All Build rule for target.
-wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_cpp.dir/all: joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_cpp.dir/all: launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_cpp.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_Test.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_cpp.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_motor_msgs.dir/all
 	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_cpp.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_cpp.dir/depend
 	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_cpp.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target wtr_usb2ros_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target wtr_usb2ros_generate_messages_cpp"
 .PHONY : wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2282,21 +2376,21 @@ clean: wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_genlisp.dir/clean
 # Target rules for target wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir
 
 # All Build rule for target.
-wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: joy/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: joy/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: joy/CMakeFiles/roscpp_generate_messages_py.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: joy/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: joy/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: joy/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: joy/CMakeFiles/roscpp_generate_messages_eus.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: joy/CMakeFiles/std_msgs_generate_messages_py.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: joy/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: launching/CMakeFiles/std_msgs_generate_messages_py.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: launching/CMakeFiles/roscpp_generate_messages_eus.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: launching/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: launching/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: launching/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: launching/CMakeFiles/roscpp_generate_messages_py.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: launching/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: launching/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: launching/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_py.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_cpp.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_lisp.dir/all
@@ -2370,12 +2464,12 @@ clean: wtr_canbus/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_de
 # Target rules for target wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_lisp.dir
 
 # All Build rule for target.
-wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_lisp.dir/all: joy/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_lisp.dir/all: launching/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_lisp.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_Test.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_lisp.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_motor_msgs.dir/all
 	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_lisp.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_lisp.dir/depend
 	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_lisp.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target wtr_usb2ros_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target wtr_usb2ros_generate_messages_lisp"
 .PHONY : wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2445,12 +2539,12 @@ clean: wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages.dir/clean
 # Target rules for target wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_eus.dir
 
 # All Build rule for target.
-wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_eus.dir/all: joy/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_eus.dir/all: launching/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_eus.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_Test.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_eus.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_motor_msgs.dir/all
 	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_eus.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_eus.dir/depend
 	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_eus.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=36,37,38 "Built target wtr_usb2ros_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=40,41,42 "Built target wtr_usb2ros_generate_messages_eus"
 .PHONY : wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2511,12 +2605,12 @@ clean: wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_genpy.dir/clean
 # Target rules for target wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_nodejs.dir
 
 # All Build rule for target.
-wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_nodejs.dir/all: joy/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_nodejs.dir/all: launching/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_nodejs.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_Test.dir/all
 wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_nodejs.dir/all: wtr_canbus/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_motor_msgs.dir/all
 	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_nodejs.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_nodejs.dir/depend
 	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_nodejs.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target wtr_usb2ros_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target wtr_usb2ros_generate_messages_nodejs"
 .PHONY : wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.

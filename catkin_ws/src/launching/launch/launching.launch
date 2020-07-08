@@ -1,0 +1,9 @@
+<launch>
+
+<node pkg="joy" type="joy_node" name="joy_node" output="screen" />
+
+<node pkg="wtr_usb2can" type="main" name="main" output="screen" />
+
+<node pkg="launching" type="launching" name="launching" output="screen" />
+
+</launch>

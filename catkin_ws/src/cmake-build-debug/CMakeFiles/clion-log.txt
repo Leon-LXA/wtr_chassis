@@ -18,11 +18,14 @@
 -- BUILD_SHARED_LIBS is on
 -- BUILD_SHARED_LIBS is on
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--- ~~  traversing 3 packages in topological order:
+-- ~~  traversing 4 packages in topological order:
+-- ~~  - launching
 -- ~~  - joy
 -- ~~  - twist2multiarray
 -- ~~  - wtr_usb2ros
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'launching'
+-- ==> add_subdirectory(launching)
 -- +++ processing catkin package: 'joy'
 -- ==> add_subdirectory(joy)
 -- +++ processing catkin package: 'twist2multiarray'

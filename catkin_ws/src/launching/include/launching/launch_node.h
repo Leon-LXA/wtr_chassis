@@ -23,13 +23,13 @@
 #include <glog/logging.h>
 #include <gflags/gflags.h>
 
-namespace wtr{
-    class Node{
+namespace wtr {
+    class Node {
     public:
-        Node(){
+        Node() {
             Last = 0;
-            pub = nh.advertise<std_msgs::UInt8MultiArray>("/wtr/canbus",10,true);
-            sub = nh.subscribe<sensor_msgs::Joy>("joy",10,&Node::JoyCallback, this);
+            pub = nh.advertise<std_msgs::UInt8MultiArray>("/wtr/canbus", 10, true);
+            sub = nh.subscribe<sensor_msgs::Joy>("joy", 10, &Node::JoyCallback, this);
             array.data.resize(12);
             std_msgs::MultiArrayDimension dims;
             dims.label = "DJI";
@@ -38,41 +38,31 @@ namespace wtr{
 
             motorInit();
         }
-        ~Node(){}
+
+        ~Node() {}
+
+        void pub_id();
 
     private:
         ros::NodeHandle nh;
         ros::Publisher pub;
         ros::Subscriber sub;
-        std_msgs::UInt8MultiArray array;
+        std_msgs::UInt8MultiArray pub1; //注册发送数组
+        std_msgs::UInt8MultiArray array;//速度或位置发送数组
 
         int Last;
 
-        void JoyCallback(const sensor_msgs::Joy::ConstPtr& msg);
+        void JoyCallback(const sensor_msgs::Joy::ConstPtr &msg);
 
         void motorInit() {
-            std_msgs::UInt8MultiArray pub1;
             std_msgs::MultiArrayDimension dims;
             dims.label = "DJI";
             dims.size = 12;
             pub1.layout.dim.push_back(dims);
-            //前四位：报头ID
-            pub1.data.push_back((uint8_t) (0x300 >> 24));
-            pub1.data.push_back((uint8_t) (0x300 >> 16));
-            pub1.data.push_back((uint8_t) (0x300 >> 8));
-            pub1.data.push_back((uint8_t) (0x300));
-            //电机1～4
-            pub1.data.push_back(M3508);
-            pub1.data.push_back(SPEED);
-            pub1.data.push_back(M3508);
-            pub1.data.push_back(SPEED);
-            pub1.data.push_back(M3508);
-            pub1.data.push_back(SPEED);
-            pub1.data.push_back(M3508);
-            pub1.data.push_back(SPEED);
-            pub.publish(pub1);
-            }
-        };
-}
+            pub1.data.resize(12);
 
+            pub_id();
+        }
+    };
+}
 #endif //LAUNCHING_LAUNCH_NODE_H
