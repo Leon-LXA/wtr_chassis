@@ -1,0 +1,8 @@
+prefix=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/launching/cmake-build-debug/devel
+
+Name: launching
+Description: Description of launching
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

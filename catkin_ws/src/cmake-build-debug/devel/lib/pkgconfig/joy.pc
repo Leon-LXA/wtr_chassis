@@ -1,0 +1,8 @@
+prefix=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/devel
+
+Name: joy
+Description: Description of joy
+Version: 1.13.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: sensor_msgs

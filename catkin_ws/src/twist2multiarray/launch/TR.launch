@@ -1,0 +1,12 @@
+<launch>
+
+<node pkg="twist2multiarray" type="TR" name="TR" output="screen" />
+
+<node pkg="joy" type="xbox" name="xbox" output="screen" />
+
+<node pkg="joy" type="joy_node" name="joy_node" output="screen" />
+
+<node pkg="wtr_can_motor" type="main" name="main" output="screen" />
+
+</launch>
+

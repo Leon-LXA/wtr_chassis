@@ -1,0 +1,8 @@
+prefix=/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/devel
+
+Name: twist2multiarray
+Description: Description of twist2multiarray
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/devel/setup.sh

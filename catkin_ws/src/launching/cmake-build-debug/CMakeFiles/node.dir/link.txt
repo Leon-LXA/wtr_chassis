@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g  -shared -Wl,-soname,libnode.so -o devel/lib/libnode.so CMakeFiles/node.dir/src/launch_node.cpp.o 

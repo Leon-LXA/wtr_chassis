@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ruoyo/WTR/wtr_chassis/catkin_ws/devel/setup.sh

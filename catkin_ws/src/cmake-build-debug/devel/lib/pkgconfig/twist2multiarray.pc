@@ -1,0 +1,8 @@
+prefix=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/devel
+
+Name: twist2multiarray
+Description: Description of twist2multiarray
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

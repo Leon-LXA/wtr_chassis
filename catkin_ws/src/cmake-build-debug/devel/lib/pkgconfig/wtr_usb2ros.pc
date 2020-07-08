@@ -1,0 +1,8 @@
+prefix=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/devel
+
+Name: wtr_usb2ros
+Description: Description of wtr_usb2ros
+Version: 0.0.0
+Cflags: -I/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/cmake-build-debug/devel/include
+Libs: -L${prefix}/lib 
+Requires: 
