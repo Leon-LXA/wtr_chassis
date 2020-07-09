@@ -34,11 +34,11 @@ void wtr::Node::JoyCallback(const sensor_msgs::Joy::ConstPtr& msg) {
         for (int i = 0; i < 2; ++i)
         {
             //1号3号电机正转
-            array.data[4*i+4] = (uint8_t)(1000>>8);
-            array.data[4*i+5] = (uint8_t)(1000);
+            array.data[4*i+4] = (uint8_t)(3000>>8);
+            array.data[4*i+5] = (uint8_t)(3000);
             //2号4号电机反转
-            array.data[4*i+6] = (uint8_t)((-1000)>>8);
-            array.data[4*i+7] = (uint8_t)(-1000);
+            array.data[4*i+6] = (uint8_t)((-3000)>>8);
+            array.data[4*i+7] = (uint8_t)(-3000);
         }
     }
     temp = ((array.data[4]<<8)|array.data[5]);
@@ -46,7 +46,7 @@ void wtr::Node::JoyCallback(const sensor_msgs::Joy::ConstPtr& msg) {
 //    LOG(INFO)<<speed_change;
     if(speed_change > 0.8 && Last == 0) //上下按钮可以增减速度
     {
-        temp += 200;
+        temp += 500;
         for (int i = 0; i < 2; ++i)
         {
             //1号3号电机正转
@@ -59,7 +59,7 @@ void wtr::Node::JoyCallback(const sensor_msgs::Joy::ConstPtr& msg) {
         Last = 1;
     }else if(speed_change < -0.8 && Last == 0)
     {
-        temp -=200;
+        temp -=500;
         for (int i = 0; i < 2; ++i)
         {
             //1号3号电机正转
