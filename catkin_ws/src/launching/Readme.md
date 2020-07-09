@@ -22,4 +22,4 @@ Here's the way we control the motors via the remote control:
 
 ## Tips for assembly
 
-由于1号3号电机的旋转方向相同，2号4号电机旋转方向相同，因此需要将电调编号设置为奇数偶数分列两侧。
+由于1号3号电机的旋转方向相同，2号4号电机旋转方向相同，因此需要将电调编号设置为1号2号同侧3号4号同侧。（这是因为同一测的电机上下相反）
