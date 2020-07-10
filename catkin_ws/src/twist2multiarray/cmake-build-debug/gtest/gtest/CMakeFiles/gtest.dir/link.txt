@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/gtest/gtest/src -lpthread -Wl,-rpath,/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/gtest/gtest/src 

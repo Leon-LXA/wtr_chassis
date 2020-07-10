@@ -1,4 +1,4 @@
-# Install script for directory: /home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray
+# Install script for directory: /home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,12 +32,7 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   
       if (NOT EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
         file(MAKE_DIRECTORY "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
@@ -47,7 +42,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/usr/local/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -56,10 +51,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/_setup_util.py")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/usr/local/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -68,10 +63,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/env.sh")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/usr/local/setup.bash;/usr/local/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -81,12 +76,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
-    "/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/setup.bash"
-    "/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/local_setup.bash"
+    "/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/setup.bash"
+    "/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/usr/local/setup.sh;/usr/local/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -96,12 +91,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
-    "/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/setup.sh"
-    "/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/local_setup.sh"
+    "/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/setup.sh"
+    "/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/usr/local/setup.zsh;/usr/local/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -111,12 +106,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
-    "/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/setup.zsh"
-    "/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/local_setup.zsh"
+    "/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/setup.zsh"
+    "/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/usr/local/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -125,27 +120,27 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/.rosinstall")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/twist2multiarray.pc")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/twist2multiarray.pc")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/twist2multiarray/cmake" TYPE FILE FILES
-    "/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/twist2multiarrayConfig.cmake"
-    "/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/twist2multiarrayConfig-version.cmake"
+    "/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/twist2multiarrayConfig.cmake"
+    "/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/catkin_generated/installspace/twist2multiarrayConfig-version.cmake"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/twist2multiarray" TYPE FILE FILES "/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/package.xml")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/twist2multiarray" TYPE FILE FILES "/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/gtest/cmake_install.cmake")
+  include("/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/gtest/cmake_install.cmake")
 
 endif()
 
@@ -157,5 +152,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

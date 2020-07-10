@@ -1,0 +1,8 @@
+prefix=/home/ruoyo/WTR/wtr_chassis/catkin_ws/install
+
+Name: wtr_odom
+Description: Description of wtr_odom
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

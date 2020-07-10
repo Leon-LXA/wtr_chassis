@@ -253,6 +253,12 @@ SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 //Name of the computer/site where compile is being run
 SITE:STRING=ruoyo-G3-3579
 
+//Value Computed by CMake
+TF_BINARY_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/TF
+
+//Value Computed by CMake
+TF_SOURCE_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/TF
+
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
 
@@ -371,6 +377,9 @@ message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
 //Dependencies for target
 node_LIB_DEPENDS:STATIC=
 
+//Dependencies for target
+odom_LIB_DEPENDS:STATIC=
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/kinetic/share/rosconsole/cmake
 
@@ -402,10 +411,25 @@ sensor_msgs_DIR:PATH=/opt/ros/kinetic/share/sensor_msgs/cmake
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
 
 //Value Computed by CMake
+tf_BINARY_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/tf
+
+//Dependencies for target
+tf_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+tf_SOURCE_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/tf
+
+//Value Computed by CMake
 twist2multiarray_BINARY_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/twist2multiarray
 
 //Value Computed by CMake
 twist2multiarray_SOURCE_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray
+
+//Value Computed by CMake
+wtr_odom_BINARY_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/wtr_odom
+
+//Value Computed by CMake
+wtr_odom_SOURCE_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/wtr_odom
 
 //Value Computed by CMake
 wtr_usb2ros_BINARY_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/wtr_canbus/wtr_usb2ros
@@ -520,7 +544,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

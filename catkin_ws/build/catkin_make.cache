@@ -1,2 +1,2 @@
-joy:launching:twist2multiarray:wtr_canbus/wtr_usb2ros
+joy:launching:twist2multiarray:wtr_canbus/wtr_usb2ros:wtr_odom
 -DCATKIN_DEVEL_PREFIX=/home/ruoyo/WTR/wtr_chassis/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ruoyo/WTR/wtr_chassis/catkin_ws/install -G Unix Makefiles

@@ -14,22 +14,22 @@ void fwc(float V, float theta, float Omega)
 {
     for(int i=0;i<4;i++)
     {
-        wheel.angle[i] = atan2((Omega*AFA*sin(deltas[i])+V*sin(theta)) ,(Omega*AFA*cos(deltas[i])+V*cos(theta)));
+        wheel.angle[i] = atan2((-Omega*AFA*sin(deltas[i])+V*sin(theta)) ,(-Omega*AFA*cos(deltas[i])+V*cos(theta)));
         //获得的速度永远>=0
-        wheel.vel[i] = sqrt(pow(Omega*AFA,2)+V*V+ 2*V*Omega*AFA*cos(deltas[i]-theta));
+        wheel.vel[i] = sqrt(pow(Omega*AFA,2)+V*V+ 2*V*(-Omega)*AFA*cos(deltas[i]-theta));
     }
 
 }
 
 void adjustSteerAngle(float &targetVel, float &targetAngle_rad, float currentAngle_rad) {
 //    输入输出：
-//                          x+
+//                          y+
 //                          前
 //                          90
-//              y-  左 180        0 右  y+
+//              x-  左 180        0 右  x+
 //                          -90
 //                          后
-//                          x-
+//                          y-
     float targetAngle_1 = targetAngle_rad * 180 / PI;
     float targetAngle_2 = targetAngle_1 + 180;
     if (targetAngle_2 > 180) {

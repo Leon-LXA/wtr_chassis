@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g  -shared -Wl,-soname,libodom.so -o devel/lib/libodom.so CMakeFiles/odom.dir/src/node.cpp.o 

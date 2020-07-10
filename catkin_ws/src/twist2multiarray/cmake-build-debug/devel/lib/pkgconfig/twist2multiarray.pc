@@ -1,4 +1,4 @@
-prefix=/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/devel
+prefix=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/devel
 
 Name: twist2multiarray
 Description: Description of twist2multiarray

@@ -894,6 +894,32 @@ PR/fast:
 .PHONY : PR/fast
 
 #=============================================================================
+# Target rules for targets named wtr_odom
+
+# Build rule for target.
+wtr_odom: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wtr_odom
+.PHONY : wtr_odom
+
+# fast build rule for target.
+wtr_odom/fast:
+	$(MAKE) -f wtr_odom/CMakeFiles/wtr_odom.dir/build.make wtr_odom/CMakeFiles/wtr_odom.dir/build
+.PHONY : wtr_odom/fast
+
+#=============================================================================
+# Target rules for targets named odom
+
+# Build rule for target.
+odom: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 odom
+.PHONY : odom
+
+# fast build rule for target.
+odom/fast:
+	$(MAKE) -f wtr_odom/CMakeFiles/odom.dir/build.make wtr_odom/CMakeFiles/odom.dir/build
+.PHONY : odom/fast
+
+#=============================================================================
 # Target rules for targets named gpio
 
 # Build rule for target.
@@ -1170,6 +1196,8 @@ help:
 	@echo "... TR"
 	@echo "... node"
 	@echo "... PR"
+	@echo "... wtr_odom"
+	@echo "... odom"
 	@echo "... gpio"
 	@echo "... wtr_usb2ros_generate_messages_py"
 	@echo "... wtr_usb2ros_gencpp"

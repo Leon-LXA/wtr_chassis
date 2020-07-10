@@ -18,8 +18,8 @@ void twc(float Vx, float Vy, float Omega)
 //    }
     double theta1 = PI/3;
     double theta2 = PI/6;
-    wheel_3.vel[0] = (double)(Vx+Omega*AFA);
-    wheel_3.vel[1] = (double)(-Vx * cos(theta1) + Vy*sin(theta1)+ Omega*AFA);
-    wheel_3.vel[2] = (double)(-Vx * sin(theta2) - Vy*cos(theta2)+ Omega*AFA);
+    wheel_3.vel[0] = (double)(Vx-Omega*AFA);
+    wheel_3.vel[1] = (double)(-Vx * cos(theta1) + Vy*sin(theta1)- Omega*AFA);
+    wheel_3.vel[2] = (double)(-Vx * sin(theta2) - Vy*cos(theta2)- Omega*AFA);
 
 }

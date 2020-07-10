@@ -129,6 +129,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/launching/cmake_install.cmake")
   include("/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/joy/cmake_install.cmake")
   include("/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/twist2multiarray/cmake_install.cmake")
+  include("/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/wtr_odom/cmake_install.cmake")
   include("/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/wtr_canbus/wtr_usb2ros/cmake_install.cmake")
 
 endif()

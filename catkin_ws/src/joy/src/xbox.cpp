@@ -21,7 +21,7 @@ void Xbox::JoyCallback(const sensor_msgs::Joy::ConstPtr& msg)
 	
 	twist.angular.x=0;
 	twist.angular.y=0;
-	twist.angular.z=-msg->axes[0];
+	twist.angular.z=msg->axes[0];
 	twist.linear.x=-msg->axes[2];
 	twist.linear.y=msg->axes[3];
 	twist.linear.z=0;

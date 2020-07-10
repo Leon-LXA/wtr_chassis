@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/src/Node.cpp" "/home/kevin/Desktop/wtrCanInterface/catkin_ws/src/twist2multiarray/cmake-build-debug/CMakeFiles/node.dir/src/Node.cpp.o"
+  "/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/src/Node.cpp" "/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/twist2multiarray/cmake-build-debug/CMakeFiles/node.dir/src/Node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -13,14 +13,14 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_BUILD_SHARED_LIBS=1"
   "ROS_PACKAGE_NAME=\"twist2multiarray\""
-  "node_EXPORTS"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
-  "/opt/ros/noetic/include"
-  "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/opt/ros/kinetic/include"
+  "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/usr/local/include"
   )
 
 # Targets to which this target links.

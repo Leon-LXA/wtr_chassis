@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g  -shared -Wl,-soname,libtf.so -o devel/lib/libtf.so CMakeFiles/tf.dir/src/node.cpp.o 
