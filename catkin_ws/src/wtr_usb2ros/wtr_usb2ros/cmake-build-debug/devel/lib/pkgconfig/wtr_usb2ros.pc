@@ -1,0 +1,8 @@
+prefix=/home/kevin/WTR/Share/share_test_ws/src/chassis/wtr_canbus/wtr_usb2ros/cmake-build-debug/devel
+
+Name: wtr_usb2ros
+Description: Description of wtr_usb2ros
+Version: 0.0.0
+Cflags: -I/home/kevin/WTR/Share/share_test_ws/src/chassis/wtr_canbus/wtr_usb2ros/cmake-build-debug/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

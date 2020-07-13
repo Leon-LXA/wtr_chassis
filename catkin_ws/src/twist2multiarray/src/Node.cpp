@@ -75,8 +75,8 @@ void wtr::Node::CmdCallback(const geometry_msgs::Twist::ConstPtr &twist) {
         pub_dji.data.push_back((uint8_t)(0x301));
 
         for(int i=0;i<4;i++){
-            pub_dji.data.push_back(steer[i].data_i[0]);
             pub_dji.data.push_back(steer[i].data_i[1]);
+            pub_dji.data.push_back(steer[i].data_i[0]);
         }
         pub.publish(pub_dji);
 

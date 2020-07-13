@@ -1,8 +1,0 @@
-prefix=/home/ruoyo/WTR/wtr_chassis/catkin_ws/install
-
-Name: TF
-Description: Description of TF
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

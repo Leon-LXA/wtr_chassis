@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/ruoyo/WTR/wtr_chassis/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_76fcc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_76fcc.dir/build.make CMakeFiles/cmTC_76fcc.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8e6ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e6ae.dir/build.make CMakeFiles/cmTC_8e6ae.dir/build
 make[1]: Entering directory '/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_76fcc.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_76fcc.dir/CheckSymbolExists.c.o   -c /home/ruoyo/WTR/wtr_chassis/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_76fcc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76fcc.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_76fcc.dir/CheckSymbolExists.c.o  -o cmTC_76fcc -rdynamic 
-CMakeFiles/cmTC_76fcc.dir/CheckSymbolExists.c.o：在函数‘main’中：
+Building C object CMakeFiles/cmTC_8e6ae.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_8e6ae.dir/CheckSymbolExists.c.o   -c /home/ruoyo/WTR/wtr_chassis/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8e6ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e6ae.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_8e6ae.dir/CheckSymbolExists.c.o  -o cmTC_8e6ae -rdynamic 
+CMakeFiles/cmTC_8e6ae.dir/CheckSymbolExists.c.o：在函数‘main’中：
 CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_76fcc.dir/build.make:97: recipe for target 'cmTC_76fcc' failed
-make[1]: *** [cmTC_76fcc] Error 1
+CMakeFiles/cmTC_8e6ae.dir/build.make:97: recipe for target 'cmTC_8e6ae' failed
+make[1]: *** [cmTC_8e6ae] Error 1
 make[1]: Leaving directory '/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_76fcc/fast' failed
-make: *** [cmTC_76fcc/fast] Error 2
+Makefile:126: recipe for target 'cmTC_8e6ae/fast' failed
+make: *** [cmTC_8e6ae/fast] Error 2
 
 File /home/ruoyo/WTR/wtr_chassis/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/ruoyo/WTR/wtr_chassis/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_23d6d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_23d6d.dir/build.make CMakeFiles/cmTC_23d6d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a1286/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1286.dir/build.make CMakeFiles/cmTC_a1286.dir/build
 make[1]: Entering directory '/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_23d6d.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_23d6d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_23d6d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23d6d.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_23d6d.dir/CheckFunctionExists.c.o  -o cmTC_23d6d -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTC_a1286.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a1286.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a1286
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1286.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a1286.dir/CheckFunctionExists.c.o  -o cmTC_a1286 -rdynamic -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_23d6d.dir/build.make:97: recipe for target 'cmTC_23d6d' failed
-make[1]: *** [cmTC_23d6d] Error 1
+CMakeFiles/cmTC_a1286.dir/build.make:97: recipe for target 'cmTC_a1286' failed
+make[1]: *** [cmTC_a1286] Error 1
 make[1]: Leaving directory '/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_23d6d/fast' failed
-make: *** [cmTC_23d6d/fast] Error 2
+Makefile:126: recipe for target 'cmTC_a1286/fast' failed
+make: *** [cmTC_a1286/fast] Error 2
 
 

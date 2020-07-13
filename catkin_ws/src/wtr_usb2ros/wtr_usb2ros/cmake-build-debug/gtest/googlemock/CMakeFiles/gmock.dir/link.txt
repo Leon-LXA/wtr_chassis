@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libgmock.so -o libgmock.so CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o CMakeFiles/gmock.dir/src/gmock-all.cc.o   -L/home/kevin/WTR/Share/share_test_ws/src/chassis/wtr_canbus/wtr_usb2ros/lib  -Wl,-rpath,/home/kevin/WTR/Share/share_test_ws/src/chassis/wtr_canbus/wtr_usb2ros/lib -lUSB2XXX -lusb-1.0 -lpthread 

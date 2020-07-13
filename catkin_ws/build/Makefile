@@ -929,7 +929,7 @@ gpio: cmake_check_build_system
 
 # fast build rule for target.
 gpio/fast:
-	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/gpio.dir/build
+	$(MAKE) -f wtr_usb2ros/wtr_usb2ros/CMakeFiles/gpio.dir/build.make wtr_usb2ros/wtr_usb2ros/CMakeFiles/gpio.dir/build
 .PHONY : gpio/fast
 
 #=============================================================================
@@ -942,7 +942,7 @@ wtr_usb2ros_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 wtr_usb2ros_generate_messages_py/fast:
-	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_py.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_py.dir/build
+	$(MAKE) -f wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_py.dir/build.make wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_py.dir/build
 .PHONY : wtr_usb2ros_generate_messages_py/fast
 
 #=============================================================================
@@ -955,7 +955,7 @@ wtr_usb2ros_gencpp: cmake_check_build_system
 
 # fast build rule for target.
 wtr_usb2ros_gencpp/fast:
-	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_gencpp.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_gencpp.dir/build
+	$(MAKE) -f wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_gencpp.dir/build.make wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_gencpp.dir/build
 .PHONY : wtr_usb2ros_gencpp/fast
 
 #=============================================================================
@@ -968,7 +968,7 @@ main: cmake_check_build_system
 
 # fast build rule for target.
 main/fast:
-	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/main.dir/build
+	$(MAKE) -f wtr_usb2ros/wtr_usb2ros/CMakeFiles/main.dir/build.make wtr_usb2ros/wtr_usb2ros/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
 #=============================================================================
@@ -981,7 +981,7 @@ wtr_usb2ros_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 wtr_usb2ros_generate_messages_cpp/fast:
-	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_cpp.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_cpp.dir/build
+	$(MAKE) -f wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_cpp.dir/build.make wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_cpp.dir/build
 .PHONY : wtr_usb2ros_generate_messages_cpp/fast
 
 #=============================================================================
@@ -994,34 +994,8 @@ wtr_usb2ros_genlisp: cmake_check_build_system
 
 # fast build rule for target.
 wtr_usb2ros_genlisp/fast:
-	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_genlisp.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_genlisp.dir/build
+	$(MAKE) -f wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_genlisp.dir/build.make wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_genlisp.dir/build
 .PHONY : wtr_usb2ros_genlisp/fast
-
-#=============================================================================
-# Target rules for targets named controller
-
-# Build rule for target.
-controller: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 controller
-.PHONY : controller
-
-# fast build rule for target.
-controller/fast:
-	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/controller.dir/build
-.PHONY : controller/fast
-
-#=============================================================================
-# Target rules for targets named _wtr_usb2ros_generate_messages_check_deps_Test
-
-# Build rule for target.
-_wtr_usb2ros_generate_messages_check_deps_Test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _wtr_usb2ros_generate_messages_check_deps_Test
-.PHONY : _wtr_usb2ros_generate_messages_check_deps_Test
-
-# fast build rule for target.
-_wtr_usb2ros_generate_messages_check_deps_Test/fast:
-	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_Test.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_Test.dir/build
-.PHONY : _wtr_usb2ros_generate_messages_check_deps_Test/fast
 
 #=============================================================================
 # Target rules for targets named wtr_usb2ros_generate_messages_lisp
@@ -1033,7 +1007,7 @@ wtr_usb2ros_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 wtr_usb2ros_generate_messages_lisp/fast:
-	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_lisp.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_lisp.dir/build
+	$(MAKE) -f wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_lisp.dir/build.make wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_lisp.dir/build
 .PHONY : wtr_usb2ros_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1046,7 +1020,7 @@ wtr_usb2ros_generate_messages: cmake_check_build_system
 
 # fast build rule for target.
 wtr_usb2ros_generate_messages/fast:
-	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages.dir/build
+	$(MAKE) -f wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages.dir/build.make wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages.dir/build
 .PHONY : wtr_usb2ros_generate_messages/fast
 
 #=============================================================================
@@ -1059,8 +1033,34 @@ wtr_usb2ros_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 wtr_usb2ros_generate_messages_eus/fast:
-	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_eus.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_eus.dir/build
+	$(MAKE) -f wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_eus.dir/build.make wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_eus.dir/build
 .PHONY : wtr_usb2ros_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named controller
+
+# Build rule for target.
+controller: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 controller
+.PHONY : controller
+
+# fast build rule for target.
+controller/fast:
+	$(MAKE) -f wtr_usb2ros/wtr_usb2ros/CMakeFiles/controller.dir/build.make wtr_usb2ros/wtr_usb2ros/CMakeFiles/controller.dir/build
+.PHONY : controller/fast
+
+#=============================================================================
+# Target rules for targets named _wtr_usb2ros_generate_messages_check_deps_Test
+
+# Build rule for target.
+_wtr_usb2ros_generate_messages_check_deps_Test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wtr_usb2ros_generate_messages_check_deps_Test
+.PHONY : _wtr_usb2ros_generate_messages_check_deps_Test
+
+# fast build rule for target.
+_wtr_usb2ros_generate_messages_check_deps_Test/fast:
+	$(MAKE) -f wtr_usb2ros/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_Test.dir/build.make wtr_usb2ros/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_Test.dir/build
+.PHONY : _wtr_usb2ros_generate_messages_check_deps_Test/fast
 
 #=============================================================================
 # Target rules for targets named wtr_usb2ros_genpy
@@ -1072,7 +1072,7 @@ wtr_usb2ros_genpy: cmake_check_build_system
 
 # fast build rule for target.
 wtr_usb2ros_genpy/fast:
-	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_genpy.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_genpy.dir/build
+	$(MAKE) -f wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_genpy.dir/build.make wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_genpy.dir/build
 .PHONY : wtr_usb2ros_genpy/fast
 
 #=============================================================================
@@ -1085,7 +1085,7 @@ wtr_usb2ros_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 wtr_usb2ros_generate_messages_nodejs/fast:
-	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_nodejs.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_nodejs.dir/build
+	$(MAKE) -f wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_nodejs.dir/build.make wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_generate_messages_nodejs.dir/build
 .PHONY : wtr_usb2ros_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1098,7 +1098,7 @@ _wtr_usb2ros_generate_messages_check_deps_motor_msgs: cmake_check_build_system
 
 # fast build rule for target.
 _wtr_usb2ros_generate_messages_check_deps_motor_msgs/fast:
-	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_motor_msgs.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_motor_msgs.dir/build
+	$(MAKE) -f wtr_usb2ros/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_motor_msgs.dir/build.make wtr_usb2ros/wtr_usb2ros/CMakeFiles/_wtr_usb2ros_generate_messages_check_deps_motor_msgs.dir/build
 .PHONY : _wtr_usb2ros_generate_messages_check_deps_motor_msgs/fast
 
 #=============================================================================
@@ -1111,7 +1111,7 @@ wtr_usb2ros_geneus: cmake_check_build_system
 
 # fast build rule for target.
 wtr_usb2ros_geneus/fast:
-	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_geneus.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_geneus.dir/build
+	$(MAKE) -f wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_geneus.dir/build.make wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_geneus.dir/build
 .PHONY : wtr_usb2ros_geneus/fast
 
 #=============================================================================
@@ -1124,7 +1124,7 @@ wtr_usb2ros_gennodejs: cmake_check_build_system
 
 # fast build rule for target.
 wtr_usb2ros_gennodejs/fast:
-	$(MAKE) -f wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_gennodejs.dir/build.make wtr_canbus/wtr_usb2ros/CMakeFiles/wtr_usb2ros_gennodejs.dir/build
+	$(MAKE) -f wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_gennodejs.dir/build.make wtr_usb2ros/wtr_usb2ros/CMakeFiles/wtr_usb2ros_gennodejs.dir/build
 .PHONY : wtr_usb2ros_gennodejs/fast
 
 # Help Target
@@ -1204,11 +1204,11 @@ help:
 	@echo "... main"
 	@echo "... wtr_usb2ros_generate_messages_cpp"
 	@echo "... wtr_usb2ros_genlisp"
-	@echo "... controller"
-	@echo "... _wtr_usb2ros_generate_messages_check_deps_Test"
 	@echo "... wtr_usb2ros_generate_messages_lisp"
 	@echo "... wtr_usb2ros_generate_messages"
 	@echo "... wtr_usb2ros_generate_messages_eus"
+	@echo "... controller"
+	@echo "... _wtr_usb2ros_generate_messages_check_deps_Test"
 	@echo "... wtr_usb2ros_genpy"
 	@echo "... wtr_usb2ros_generate_messages_nodejs"
 	@echo "... _wtr_usb2ros_generate_messages_check_deps_motor_msgs"

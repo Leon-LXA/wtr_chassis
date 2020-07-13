@@ -253,12 +253,6 @@ SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 //Name of the computer/site where compile is being run
 SITE:STRING=ruoyo-G3-3579
 
-//Value Computed by CMake
-TF_BINARY_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/TF
-
-//Value Computed by CMake
-TF_SOURCE_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/TF
-
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
 
@@ -411,15 +405,6 @@ sensor_msgs_DIR:PATH=/opt/ros/kinetic/share/sensor_msgs/cmake
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
 
 //Value Computed by CMake
-tf_BINARY_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/tf
-
-//Dependencies for target
-tf_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-tf_SOURCE_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/tf
-
-//Value Computed by CMake
 twist2multiarray_BINARY_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/twist2multiarray
 
 //Value Computed by CMake
@@ -432,10 +417,10 @@ wtr_odom_BINARY_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/wtr_odom
 wtr_odom_SOURCE_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/wtr_odom
 
 //Value Computed by CMake
-wtr_usb2ros_BINARY_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/wtr_canbus/wtr_usb2ros
+wtr_usb2ros_BINARY_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/build/wtr_usb2ros/wtr_usb2ros
 
 //Value Computed by CMake
-wtr_usb2ros_SOURCE_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/wtr_canbus/wtr_usb2ros
+wtr_usb2ros_SOURCE_DIR:STATIC=/home/ruoyo/WTR/wtr_chassis/catkin_ws/src/wtr_usb2ros/wtr_usb2ros
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/kinetic/share/xmlrpcpp/cmake
